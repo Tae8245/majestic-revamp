@@ -1,0 +1,451 @@
+/* Main Styling - Index-Main Page */
+
+body  {
+    margin: 0;
+    padding: 0;
+    background-color: #F2F4F8;
+}
+
+html{
+    width: 100%;
+}
+
+/* The Navigation Layout starts Here*/
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: transparent;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+    .Logo {
+        width: 20%;
+        font-size: 32px;
+        color: black;
+        text-decoration: none;
+        font-weight: 700;
+    }
+
+    .LOGO-img {
+    width: 20%;
+    border-radius: 70px;
+    }
+
+    .navbar a {
+        font-size: 16px;
+        color: #666;
+        font-weight: 500;
+        text-decoration: none;
+        margin-left: 30px;
+        position: relative;
+    }
+
+    .navbar a::before {
+        content: '';
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background: #333;
+        transition: .3s;
+        transform: scaleX(0);
+        transform-origin: bottom right;
+    }
+
+    .navbar a:hover::before {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+    }
+/* The Navigation Layout Ends Here*/
+
+
+/* Log-in Main Content Styling Starts Here */
+
+label {
+	color: #000000;
+	cursor: default;
+	font-family: Poppins, sans-serif;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+	margin: 30px 0px 0px;
+}
+
+#username {
+	appearance: auto;
+	background-color: rgba(255, 255, 255, 0.07);
+	border-radius: 3px;
+	border: 1px solid ;
+	cursor: text;
+	margin: 8px 0px 0px;
+	padding: 0px 10px;
+}
+
+#password {
+	appearance: auto;
+	background-color: rgba(255, 255, 255, 0.07);
+	border-radius: 3px;
+	border: 1px solid;
+	cursor: text;
+	margin: 8px 0px 0px;
+	padding: 0px 10px;
+}
+
+.fab {
+    color: rgb(0, 0, 0);
+}
+
+
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+  body{
+      background-color: #F2F4F8; 
+    }
+  .background{
+      width: 430px;
+      height: 520px;
+      position: absolute;
+      transform: translate(-50%,-50%);
+      left: 50%;
+      top: 50%;
+  }
+  .background .shape{
+      height: 200px;
+      width: 200px;
+      position: absolute;
+      border-radius: 50%;
+  }
+  .shape:first-child{
+      background: linear-gradient(
+          #1845ad,
+          #23a2f6
+      );
+      left: -200px;
+      top: 200px;
+  }
+  .shape:last-child{
+      background: linear-gradient(
+          to right,
+          #ff512f,
+          #f09819
+      );
+      right: -210px;
+      bottom: -80px;
+  }
+  form{
+      height: 520px;
+      width: 400px;
+      background-color: rgba(255,255,255,0.13);
+      position: relative;
+      transform: translate(-50%,5%);
+      top: 50%;
+      left: 50%;
+      border-radius: 10px;
+      backdrop-filter: blur(10px);
+      border: 2px solid rgba(255,255,255,0.1);
+      box-shadow: 0 0 40px rgba(8,7,16,0.6);
+      padding: 50px 35px;
+  }
+  form *{
+      font-family: 'Poppins',sans-serif;
+      color: #000000;
+      letter-spacing: 0.5px;
+      outline: none;
+      border: none;
+  }
+  form h3{
+      font-size: 32px;
+      font-weight: 500;
+      line-height: 42px;
+      text-align: center;
+  }
+  
+  label{
+      display: block;
+      margin-top: 30px;
+      font-size: 16px;
+      font-weight: 500;
+  }
+  input{
+      display: block;
+      height: 50px;
+      width: 100%;
+      background-color: rgba(255,255,255,0.07);
+      border-radius: 3px;
+      padding: 0 10px;
+      margin-top: 8px;
+      font-size: 14px;
+      font-weight: 300;
+    }
+  ::placeholder{
+      color: #000000;
+  }
+  button {
+    margin-top: 50px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add smooth transition effect */
+}
+
+button:hover {
+    background-color: #3b2f96;
+    color: #ffffff;
+}
+
+  .social{
+    margin-top: 30px;
+    display: flex;
+  }
+  .social div{
+    background: red;
+    width: 150px;
+    border-radius: 3px;
+    padding: 5px 10px 10px 5px;
+    background-color: rgba(255,255,255,0.27);
+    color: #000000;
+    text-align: center;
+  }
+  .social div:hover{
+    background-color: rgba(255,255,255,0.47);
+  }
+  .social .fb{
+      margin-left: 25px;
+      color: #000000;
+    }
+  .social i{
+    margin-right: 4px;
+}
+/* Log-in Styling Ends Here */
+
+
+/* registration starts here*/
+/* registration ends here*/
+/* The Footer layout Starts Here */
+
+footer {
+    position: sticky;
+}
+
+
+p {
+	display: inline-block;
+	font-family: sans-serif;
+	font-weight: 300;
+	text-align: left;
+	vertical-align: middle;
+}
+
+
+@media (max-height:800px) {
+    footer {
+        position: static;
+    }
+    header {
+        padding-top: 40px;
+    }
+}
+
+/* text settings and background color for footer */
+.footer-distributed {
+    background-color: #DEDEE3;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 50px 50px 60px 50px;
+    margin-top: 0px;
+}
+
+.footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+    width: 30%;
+}
+
+/* majestic text style */
+.footer-distributed h3 {
+    color: #000000;
+    font: normal 36px 'Cookie', cursive;
+    margin: 0;
+}
+
+/* tech styling for Majestic  */
+.footer-distributed h3 span {
+    color: #e0ac1c;
+}
+
+/* Footer links */
+
+/* text color and positiong for Home/about/contact/blog */
+.footer-distributed .footer-links {
+ 
+    margin: 20px 0 12px;
+}
+
+/* styling for it^ */
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* text styling for Copyright 2021 MajesticTech All rights reserved */
+.footer-distributed .footer-company-name {
+    color: #000000;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Footer Center */
+
+/* controls the positioning for about the company */
+.footer-distributed .footer-center {
+    width: 35%;
+}
+
+/* controls styling and the icons may be affected if you adjust background colorfor Jamaica
+Number
+876(265-3565)
+ */
+.footer-distributed .footer-center i {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+
+
+/* extra styling */ 
+.footer-distributed .footer-center i.fa {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+
+/* important part controls the positioning and looks for jamaica number etc section */
+.footer-distributed .footer-center p {
+    display: inline-block;
+    color: #000000;
+    vertical-align: middle;
+    margin: 0;
+}
+
+
+/* controls the Location and Email styling */
+.footer-distributed .footer-center p span {
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 2;
+    color: #000000;
+}
+
+/* styling for majestictech21@gmail.com */
+.footer-distributed .footer-center p a {
+    color: #000000;
+    text-decoration: none;
+    ;
+}
+
+/* Footer Right/ everything that controls about the compant */
+
+.footer-distributed .footer-right {
+    width: 30%;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #000000;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+    display: block;
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 25px;
+    border-radius: 100px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 2px;
+    font-size: 20px;
+  
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+/* Add transitions for smooth effects */
+.footer-distributed .footer-icons a,
+.footer-links a {
+    transition: all 0.3s ease;
+}
+
+/* Add hover effects */
+.footer-distributed .footer-icons a:hover {
+    background-color: #D1D5DE;
+    transform: scale(1.1); /* Scale up on hover */
+}
+
+.footer-links a:hover {
+    color: #D1D5DE;
+    text-shadow: 0 0 5px #000000; /* Add text shadow on hover */
+}
+
+.footer-spam {
+    color: #e0ac1c;
+    
+  }
+@media (max-width: 880px) {
+    .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+}       
+        
+/* footer styling stops here */

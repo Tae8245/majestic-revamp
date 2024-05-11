@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="x-icon" href="Project-Media/Images/Majestic-tech-rounded.png">
+    <link rel="stylesheet" href="CSS-Files/Style.css">
+    <title>About Us</title>
+    <!-- Roboto Google Font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- Montserrat Google Font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="x-icon" href="Project-Media/Images/Majestic-tech-rounded.png" id="icon">
+    <!-- Footer Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+     <script src="JS-FIles/script OG.js"></script>
+     <script type="text/javascript"
+     src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+
+</head>
+<body>
+    <!--Header Section-->
+    <header class="Header">
+        <!--Logo Section of The Navigation Bar-->
+        <a href="index.html" class="Logo">
+            <img src="Project-Media/Images/Majestic-Tech.png" class="LOGO-img" alt="LOGO">
+        </a>
+        <!--Navigation Links-->
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="About-Us.html">About</a>
+            <a href="Gallery.html">Gallery</a>
+            <a href="offering.html">Offerings</a>
+            <a href="log-in.html">Log In</a>
+        </nav>
+    </header>
+    
+    <!--Main Content Section-->
+    <main class="About-Us-Main-Section" id="About-Us-Main-Section">
+        <span>
+            <h2 class="about-h2">About Us</h2>
+        </span>
+        <section class="main-content">
+            <div class="company-info">
+                <h2>History</h2>
+                <p>Founded in 2006, Majestic Tech Solutions began its journey with a vision to revolutionize the tech retail landscape in Mandeville, Manchester. From its humble beginnings, the store quickly gained recognition for its commitment to offering top-quality products and unparalleled customer service.</p>
+                <p>Over the years, Majestic Tech Solutions has evolved with the rapidly advancing technology landscape, continuously updating its inventory to meet the diverse demands of its clientele. The store's dedication to staying ahead of the curve has enabled it to adapt to emerging trends and emerging customer preferences seamlessly.</p>
+            </div>
+            <div class="company-info">
+                <h2>Product Offerings</h2>
+                <p>Majestic Tech Solutions boasts an extensive selection of laptops, ranging from high-performance gaming rigs to sleek and portable models tailored for content creators. Whether customers are in search of powerhouse machines to fuel their gaming passion or reliable devices to support their academic pursuits, Majestic Tech Solutions offers a diverse array of options to suit every need and budget.</p>
+            </div>
+            <div class="company-info">
+                <h2>Mission</h2>
+                <p>At Majestic Tech Solutions, our mission is to empower individuals with the latest technology, enabling them to unleash their full potential and achieve their goals. We strive to provide unparalleled value through exceptional products, expert guidance, and personalized service, ensuring that every customer leaves our store satisfied and inspired.</p>
+            </div>
+            <div class="company-info">
+                <h2>Vision</h2>
+                <p>As a leading technology retailer, Majestic Tech Solutions aims to continue pushing boundaries and setting new standards of excellence in the industry. We aspire to be the go-to destination for tech enthusiasts and professionals seeking innovative solutions, fostering a community where creativity thrives and possibilities are limitless.</p>
+            </div>
+        </section>
+    
+        <!-- Contact Form Section -->
+        <section class="contact-form-section">
+            <div class="contact-form-container">
+                <h2 class="about-h2">Contact Us</h2>
+                <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="63103fae-d2f8-47f8-a6fd-b630eae73f92">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit" onclick="sendMail()">Send Message</button>
+                </form>
+            </div>
+        </section>
+        
+        
+    </main>
+    
+
+    <!--Footer-->
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+            <h3>Majestic<span class="footer-span">Tech</span></h3>
+
+            <p class="footer-links">
+                <a href="index.html">Home</a>
+                |
+                <a href="About-Us.html">About</a>
+                |
+                <a href="log-in.html">Log In</a>
+                |
+                <a href="offering.html">Blog</a>
+            </p>
+
+            <p class="footer-company-name">Copyright © 2024 <strong>MajesticTech</strong> All rights reserved</p>
+        </div>
+
+        <div class="footer-center">
+            <!-- <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span class="footer-span">Location:</span>
+                    Jamaica</p>
+            </div> -->
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p><span class="footer-span">Number:</span>1 (876) 265-3565</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:majestictech21@gmail.com"><span>Email:</span> majestictech21@gmail.com</a></p>
+
+            </div>
+        </div>
+        <div class="footer-right">
+            <p class="footer-company-about">
+                <span>About The Company</span>
+                
+                <strong>Majestic Tech Solutions</strong> is dedicated to providing cutting-edge solutions to tech enthusiasts and professionals alike.
+            </p>
+            <div class="footer-icons">
+                <span>Our Lovely Socials:</span>
+                
+                <a href="https://twitter.com/JustJoshLife"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/tech_spot_ja"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/@JustJoshTech"><i class="fab fa-youtube"></i></a>
+                
+            </div>
+    </footer>
+</body>
+</html>
